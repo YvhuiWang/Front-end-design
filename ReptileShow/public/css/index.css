@@ -1,0 +1,57 @@
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: Cyan;
+    text-shadow: 1px 1px 0px cyan;
+}
+
+/* main标签 */
+.main {
+    width: 1120px;
+    height: 400px;
+    /* border: 1px solid #ccc; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 50px;
+    /* border-radius: 20px;
+    box-shadow: 0px 0px 5px cyan; */
+    margin-top: 100px;
+}
+
+/* a标签 */
+.main a {
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-decoration: none !important;
+    border: 1px solid #123;
+    line-height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: Cyan !important;
+    border-radius: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 50px Cyan;
+}
+
+.main a:hover {
+    background: rgba(27, 155, 172, 0.3);
+}
+
+.main a:active {
+    color: Cyan !important;
+}
+
+.main a:visited {
+    color: Cyan !important;
+}
+

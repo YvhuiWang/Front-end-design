@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: red;
+    font-size: 22px;
+}
+
+p{
+    text-align: center;
+}
+p a{
+    text-decoration: none !important;
+    font-size: 25px;
+    font-weight: bold;
+    color: teal !important;
+}
+p a:active{
+    color: teal !important;
+}
+p a:visited{
+    color: teal !important;
+}

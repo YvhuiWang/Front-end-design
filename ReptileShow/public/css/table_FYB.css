@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+table tr:hover {
+    background: #eee;
+}
+
+
+.tr_header {
+    background: powderblue;
+}
+
+table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table_p {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+
+/* 删除按钮 */
+td a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+td a:active {
+    color: #000 !important;
+}
+
+td a:visited {
+    color: #000 !important;
+}

@@ -1,0 +1,60 @@
+.welcome_login {
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+    line-height: 200px;
+    text-align: center;
+    color: #456;
+}
+
+form input{
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+form p{
+    margin-top: 30px;
+}
+
+.main{
+    width: 280px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.btn{
+    display: block;
+    width: 290px;
+    height: 45px;
+    border: 1px solid #4285f4;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #4285f4;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+.register_p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.register_p a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #456 !important;
+}
+
+.register_p a:active{
+    color: #456 !important;
+}
+.register_p a:visited{
+    color: #456 !important;
+}

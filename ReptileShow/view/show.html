@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爬虫数据</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/table_FYB.css">
+    <link rel="stylesheet" href="../public/css/header.css">
+    <link rel="stylesheet" href="../public/css/show.css">
+</head>
+
+<body style="background-image: url(../public/img/timg.jpg);
+            background-repeat: no-repeat;
+            background-size:700px 250px;
+            background-color: white;
+            background-position: right top">
+
+    <a href="/" id="indexa" style="background-color: white;"><span style="color:#00FFFF">返回主页</span></a>
+
+    <h1>爬虫数据</h1>
+
+    <br>
+    <br>
+
+    <!-- 查询区域 -->
+    <div class="controlbox">
+
+        <input type="text" class="cha1" placeholder="请输入标题">
+
+        <select class="cha2">
+            <option value="none">默认查询</option>
+            <option value="and">AND</option>
+            <option value="or">OR</option>
+        </select>
+
+        <input type="text" class="cha3" style="display: none;" placeholder="请输入标题">
+
+        <select class="cha4">
+            <!-- 默认排序为升序排序 -->
+            <option value="asc">默认排序</option>
+            <option value="asc">升序</option>
+            <option value="desc">降序</option>
+        </select>
+
+        <p class="chabtn"  style="background-color: #00FFFF;">
+            <span class="glyphicon glyphicon-search"></span>
+        </p>
+
+    </div>
+
+
+    <br>
+
+
+    <!-- 显示区域 -->
+    <div class="showbox">
+
+        <table class="showbox_table">
+
+        </table>
+
+    </div>
+
+
+
+    <!-- 分页区域 -->
+    <div class="pagebox">
+        <span class="prevbtn">上一页</span>
+        <span class="nowpage">1</span>
+        <span class="nextbtn">下一页</span>
+    </div>
+
+    <br>
+    <br>
+
+    <script src="../public/js/host.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../public/js/show.js"></script>
+
+
+</body>
+
+</html>

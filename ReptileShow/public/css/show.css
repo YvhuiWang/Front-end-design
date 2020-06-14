@@ -1,0 +1,93 @@
+
+
+
+
+h1{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px cyan;
+}
+
+.showbox{
+    width: 1200px;
+    margin: 0 auto;
+    height: 450px;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+
+.controlbox{
+    width: 1200px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.controlbox input,
+.controlbox select,
+.controlbox p
+{
+margin-right: 5px;
+}
+
+.controlbox input,
+.controlbox select
+{
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chabtn{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid cyan; */
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background: teal;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+.pagebox{
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.pagebox span{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: #C5EFF5;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    text-align: center;
+    user-select: none;
+}
+
+
+.nowpage{
+    font-size: 20px !important;
+    color: tomato;
+    font-weight: bold;
+}
